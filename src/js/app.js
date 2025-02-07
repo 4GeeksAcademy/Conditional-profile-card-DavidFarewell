@@ -40,12 +40,16 @@ function render(variables = {}) {
             <h2>${variables.role || "Role"}</h2>
             <h3>${variables.city || "City"}, ${variables.country ||
     "Country"}</h3>
-            <ul class="${variables.socialMediaPosition || "position-right"}">
-                <li><a href="https://x.com/Cristiano?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://github.com/DavidFarewell" target="_blank"><i class="fab fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/ebrahim-mr/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://www.instagram.com/antoniobanderas/?hl=es" target="_blank"><i class="fab fa-instagram"></i></a></li>
-            </ul>
+        <ul class="${variables.socialMediaPosition || "position-right"}">
+          <li><a href="https://x.com/${variables.twitter ||
+            ""}" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://github.com/${variables.github ||
+            ""}" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/${variables.linkedin ||
+            ""}" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://www.instagram.com/${variables.instagram ||
+            ""}" target="_blank"><i class="fab fa-instagram"></i></a></li>
+</ul>
         </div>`;
 }
 
