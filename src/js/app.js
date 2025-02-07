@@ -37,9 +37,9 @@ function render(variables = {}) {
             <img src="${variables.avatarURL}" class="photo" />
             <h1>${variables.name || "David"} ${variables.lastName ||
     "Farewell"}</h1>
-            <h2>${variables.role || "Web Developer"}</h2>
-            <h3>${variables.city || "Barcelona"}, ${variables.country ||
-    "Spain"}</h3>
+            <h2>${variables.role || "Role"}</h2>
+            <h3>${variables.city || "City"}, ${variables.country ||
+    "Country"}</h3>
             <ul class="${variables.socialMediaPosition || "position-right"}">
                 <li><a href="https://x.com/Cristiano?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter"></i></a></li>
                 <li><a href="https://github.com/DavidFarewell" target="_blank"><i class="fab fa-github"></i></a></li>
@@ -55,8 +55,8 @@ function render(variables = {}) {
 window.onload = function() {
   window.variables = {
     includeCover: true,
-    background: "src/USA_Sculptures_Houses_462353.jpg",
-    avatarURL: "src/Imagen de WhatsApp 2024-03-30 a las 22.11.59_7fd31c8a.jpg",
+    background: "src/resources/USA_Sculptures_Houses_462353.jpg",
+    avatarURL: "src/resources/User_Photo_DavidFarewell.jpg",
     socialMediaPosition: "position-left",
     twitter: null,
     github: null,
