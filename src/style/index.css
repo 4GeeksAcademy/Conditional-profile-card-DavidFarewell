@@ -35,7 +35,7 @@
   width: 100%;
   height: auto;
   min-height: 160px;
-  border-radius: 10px 10px 0 0;
+  border-radius: 4px 4px 0 0;
   object-fit: cover;
 }
 .widget .photo {
@@ -75,10 +75,10 @@
   background: #d02cdf;
 }
 .widget ul.position-left {
-  left: -26px;
+  left: -28px;
 }
 .widget ul.position-right {
-  right: -27px;
+  right: -28px;
 }
 .widget ul li {
   list-style: none;
