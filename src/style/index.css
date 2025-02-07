@@ -36,6 +36,7 @@
   height: auto;
   min-height: 160px;
   border-radius: 4px 4px 0 0;
+  object-fit: cover;
 }
 .widget .photo {
   position: absolute;
@@ -43,9 +44,10 @@
   left: 50%;
   width: 100px;
   height: 100px;
-  margin: 0 0 0 -55px;
+  margin: 0 0 0 -50px;
   border: 5px solid #fff;
   border-radius: 50%;
+  object-fit: cover;
 }
 .widget h1,
 .widget h2,
